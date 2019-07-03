@@ -15,6 +15,7 @@
 		6D70C2DF22CBD94500D85C1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D70C2DD22CBD94500D85C1D /* LaunchScreen.storyboard */; };
 		6D70C2EA22CBD94500D85C1D /* NotSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D70C2E922CBD94500D85C1D /* NotSwiftUITests.swift */; };
 		6D70C2F522CBD94600D85C1D /* NotSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D70C2F422CBD94600D85C1D /* NotSwiftUIUITests.swift */; };
+		6D97C7A022CC13050004E9D1 /* GreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D97C79F22CC13050004E9D1 /* GreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		6D70C2F022CBD94600D85C1D /* NotSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D70C2F422CBD94600D85C1D /* NotSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotSwiftUIUITests.swift; sourceTree = "<group>"; };
 		6D70C2F622CBD94600D85C1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D97C79F22CC13050004E9D1 /* GreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				6D70C2D222CBD94400D85C1D /* AppDelegate.swift */,
 				6D70C2D422CBD94400D85C1D /* SceneDelegate.swift */,
 				6D70C2D622CBD94400D85C1D /* ViewController.swift */,
+				6D97C79F22CC13050004E9D1 /* GreenView.swift */,
 				6D70C2D822CBD94400D85C1D /* Main.storyboard */,
 				6D70C2DB22CBD94500D85C1D /* Assets.xcassets */,
 				6D70C2DD22CBD94500D85C1D /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				6D70C2D722CBD94400D85C1D /* ViewController.swift in Sources */,
 				6D70C2D322CBD94400D85C1D /* AppDelegate.swift in Sources */,
+				6D97C7A022CC13050004E9D1 /* GreenView.swift in Sources */,
 				6D70C2D522CBD94400D85C1D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +441,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L897SQDS85;
 				INFOPLIST_FILE = NotSwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +460,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L897SQDS85;
 				INFOPLIST_FILE = NotSwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
