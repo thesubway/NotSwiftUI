@@ -14,8 +14,8 @@ final class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let button = UIButton(frame: CGRect(x: 50, y: 50, width: 120, height: 30))
-        button.setTitle("Change Name", for: UIControl.State.normal)
+        let button = UIButton(frame: CGRect(x: 50, y: 150, width: 120, height: 30))
+        button.setTitle("Go to next", for: UIControl.State.normal)
         button.layer.borderWidth = 1
         button.addTarget(self, action: #selector(buttonClicked(sender:)), for: UIControl.Event.touchUpInside)
         self.view.addSubview(button)
@@ -23,7 +23,9 @@ final class ViewController: UIViewController {
     }
 
     @objc func buttonClicked(sender: UIButton) {
-        
+        print("clicked")
+        let hostingController = UIHostingController(rootView: SwiftUIView())
+        self.navigationController?.pushViewController(hostingController, animated: true)
     }
 
 }
